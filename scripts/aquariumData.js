@@ -56,6 +56,14 @@ export const database = {
             diet: "Omnivore",
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtTbPG6hjHhs2nOf7D_xcUC32ADBhyntKNqQ&s"
         },
+        {
+            name: "Nemo Dos",
+            species: "Clownfish",
+            length: 3,
+            location: "Indo-Pacific Region",
+            diet: "Omnivore",
+            image: "https://www.aquariumofpacific.org/images/made_new/images-uploads-clownfish_400_q85.jpg"
+        },
     ],
     tips: [
         {

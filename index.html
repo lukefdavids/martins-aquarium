@@ -9,20 +9,27 @@
 </head>
 <body>
    <header>
-       <h1>Martin's Aquarium</h1>
+       <h1><span id="title">Martin's Aquarium</span></h1>
    </header>
 
    <main>
-       <section id="fishList">
-           <!-- Fish grid will be dynamically generated here -->
-       </section>
+        <div id="fish_tips_container">
+            <section id="fish_section">
+                <h2 id="fish_section_title">Fish</h2>
+                <div id="fishList">
+                    <!-- Fish grid will be dynamically generated here -->
+                </div>
+            </section>
+            <aside id="tipList">
+                <!-- Care tips will be dynamically generated here -->
+            </aside>
+        </div>
 
-       <aside id="tipList">
-           <!-- Care tips will be dynamically generated here -->
-       </aside>
-
-       <section id="locationList">
+       <section id="locationSection">
+            <h2 id="locations_title">Locations</h2>
+            <div id="locationList">
            <!-- Location grid will be dynamically generated here -->
+            </div>
        </section>
    </main>
 
