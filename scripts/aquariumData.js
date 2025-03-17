@@ -64,6 +64,127 @@ export const database = {
             diet: "Omnivore",
             image: "https://www.aquariumofpacific.org/images/made_new/images-uploads-clownfish_400_q85.jpg"
         },
+
+        {
+            name: "Rody",
+            species: "Blue Tang",
+            length: 2,
+            location: "Great Barrier Reef",
+            diet: "Omnivore",
+            image: "https://example.com/images/dory.jpg"
+        },
+        {
+            name: "Moana",
+            species: "Clownfish",
+            length: 3,
+            location: "Great Barrier Reef",
+            diet: "Omnivore",
+            image: "https://example.com/images/nemo.jpg"
+        },
+        {
+            name: "Marlin",
+            species: "Royal Gramma",
+            length: 5,
+            location: "Coral Sea",
+            diet: "Carnivore",
+            image: "https://example.com/images/marlin.jpg"
+        },
+        {
+            name: "Flounder",
+            species: "Summer Flounder",
+            length: 4,
+            location: "Atlantic Ocean",
+            diet: "Carnivore",
+            image: "https://example.com/images/flounder.jpg"
+        },
+        {
+            name: "Bubbles",
+            species: "Yellow Tang",
+            length: 6,
+            location: "Hawaii",
+            diet: "Omnivore",
+            image: "https://example.com/images/bubbles.jpg"
+        },
+        {
+            name: "Mako",
+            species: "Mako Shark",
+            length: 10,
+            location: "Pacific Ocean",
+            diet: "Carnivore",
+            image: "https://example.com/images/mako.jpg"
+        },
+        {
+            name: "Gill",
+            species: "Gill the Angel Fish",
+            length: 7,
+            location: "Great Barrier Reef",
+            diet: "Omnivore",
+            image: "https://example.com/images/gill.jpg"
+        },
+        {
+            name: "Squirt",
+            species: "Sea Turtle",
+            length: 9,
+            location: "Pacific Ocean",
+            diet: "Omnivore",
+            image: "https://example.com/images/squirt.jpg"
+        },
+        {
+            name: "Sting",
+            species: "Stingray",
+            length: 12,
+            location: "Coral Sea",
+            diet: "Carnivore",
+            image: "https://example.com/images/sting.jpg"
+        },
+        {
+            name: "Chum",
+            species: "Piranha",
+            length: 5,
+            location: "Amazon River",
+            diet: "Carnivore",
+            image: "https://example.com/images/chum.jpg"
+        },
+        {
+            name: "Bruce",
+            species: "Great White Shark",
+            length: 15,
+            location: "Pacific Ocean",
+            diet: "Carnivore",
+            image: "https://example.com/images/bruce.jpg"
+        },
+        {
+            name: "Lenny",
+            species: "Whale Shark",
+            length: 30,
+            location: "Indian Ocean",
+            diet: "Plankton",
+            image: "https://example.com/images/lenny.jpg"
+        },
+        {
+            name: "Tropica",
+            species: "Tropical Fish",
+            length: 8,
+            location: "Caribbean Sea",
+            diet: "Omnivore",
+            image: "https://example.com/images/tropica.jpg"
+        },
+        {
+            name: "Finn",
+            species: "Hammerhead Shark",
+            length: 18,
+            location: "Atlantic Ocean",
+            diet: "Carnivore",
+            image: "https://example.com/images/finn.jpg"
+        },
+        {
+            name: "Sandy",
+            species: "Sandy the Sandfish",
+            length: 9,
+            location: "Desert Oasis",
+            diet: "Omnivore",
+            image: "https://example.com/images/sandy.jpg"
+        }
     ],
     tips: [
         {
