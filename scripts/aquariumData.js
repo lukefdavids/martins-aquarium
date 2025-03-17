@@ -156,7 +156,7 @@ export const database = {
         {
             name: "Lenny",
             species: "Whale Shark",
-            length: 30,
+            length: 35,
             location: "Indian Ocean",
             diet: "Plankton",
             image: "https://example.com/images/lenny.jpg"

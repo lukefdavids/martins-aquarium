@@ -1,10 +1,10 @@
-import { fishList } from './fishList.js'
+// import { fishList } from './fishList.js'
 import { tipList } from './tipList.js'
 import { locationList } from './locationList.js'
 import { mostHolyFish, soldierFish, regularFish } from './functions.js'
 
 // Generate the fish list
-const fishHTML = fishList()
+// const fishHTML = fishList()
 
 // Generate the care tips
 const tipHTML = tipList()

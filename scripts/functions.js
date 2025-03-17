@@ -2,11 +2,11 @@ import { database } from './aquariumData.js';
 
 export const mostHolyFish = () => {
     // 3, 6, 9, 12, etc... fish
-    const holyFish = ""
+    let holyFish = ""
 
-    for (const fish of database.fish) {
-        if (fish.length % 3 === 0) {
-            holyfish += `            
+    for (const item of database.fish) {
+        if (item.length % 3 === 0) {
+            holyFish += `            
             <article class="fish">
                 <img src="${item.image}" alt="${item.species} poster" class="fish_img">
                     <div class="fish_details">
@@ -26,11 +26,11 @@ export const mostHolyFish = () => {
 }
 
 export const soldierFish = () => {
-    const soldierFishString = ""
+    let soldierFishString = ""
 
-    for (const fish of database.fish) {
-        if (fish.length % 5 === 0) {
-            soldierFish += `            
+    for (const item of database.fish) {
+        if (item.length % 5 === 0) {
+            soldierFishString += `            
             <article class="fish">
                 <img src="${item.image}" alt="${item.species} poster" class="fish_img">
                     <div class="fish_details">
@@ -49,11 +49,11 @@ export const soldierFish = () => {
 }
 
 export const regularFish = () => {
-    const regFish = ""
+    let regFish = ""
 
-    for (const fish of database.fish) {
-        if (fish.length % 5 !== 0 && fish.length %3 !== 0) {
-            soldierFish += `            
+    for (const item of database.fish) {
+        if (item.length % 5 !== 0 && item.length %3 !== 0) {
+            regFish += `            
             <article class="fish">
                 <img src="${item.image}" alt="${item.species} poster" class="fish_img">
                     <div class="fish_details">
